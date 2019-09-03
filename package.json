@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Provas da OAB",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Material Completo para Passar na OAB de Uma Vez Por Todas",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Bruno Sette <brunosette@gmail.com>",
   "dependencies": {
     "gatsby": "^2.13.73",
     "gatsby-image": "^2.2.10",
@@ -12,6 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-source-filesystem": "^2.1.11",
+    "gatsby-source-wordpress": "^3.1.28",
     "gatsby-transformer-sharp": "^2.2.7",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
