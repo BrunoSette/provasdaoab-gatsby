@@ -21,6 +21,9 @@ export const query = graphql`
         node {
           title
           content
+          featured_media {
+            path
+          }
         }
       }
     }

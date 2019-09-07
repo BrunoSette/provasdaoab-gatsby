@@ -15,6 +15,20 @@ module.exports = {
         hostingWPCOM: false,
         // does your site use the Advanced Custom Fields Plugin?
         useACF: false,
+        plugins: [
+          {
+            resolve: `gatsby-wordpress-inline-images`,
+            options: {
+              baseUrl: `provasdaoab.com.br`,
+              protocol: `https`,
+              maxWidth: 650,
+              wrapperStyle: ``,
+              postTypes: ["post", "page"],
+              backgroundColor: `white`,
+              withWebp: false, // enable WebP files generation
+            },
+          },
+        ],
       },
     },
 
